@@ -26,5 +26,5 @@ sudo chown we:we /home/we/shieldXL/amidiminder.rules
 sudo chmod 777 /home/we/shieldXL/amidiminder.rules
 sudo cp --remove-destination /home/we/shieldXL/install/systemd/amidiminder.service /lib/systemd/system/amidiminder.service
 
-
+echo "Success! Now rebooting"
 sudo reboot
